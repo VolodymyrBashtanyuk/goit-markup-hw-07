@@ -13,12 +13,7 @@
 }
 // логотип 
 .logo {
-    font-family: 'Raleway',
-    sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    text-decoration: none;
+    @extend %logo;
     color: #000000;
 }  
 .logo__text {
