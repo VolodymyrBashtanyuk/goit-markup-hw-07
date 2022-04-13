@@ -8,19 +8,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
 
     <!-- Шапка  -->
     <header class="header">
 
-   <div class="container main-navigation__container">
+   <div class="main-navigation__container">
         <nav class="main-navigation">
             <a class="logo" href="./index.html"><span class="logo__text">Web</span>Studio</a>
         
-            <ul class="menu list">
+            <ul class="menu">
                 <li class="menu__item">
                     <a class="menu__link current" href="./index.html">Студия</a>
                 </li>
@@ -32,7 +31,7 @@
                 </li>
             </ul>
         </nav>
-        <ul class="contacts list">
+        <ul class="contacts">
             <li class="contacts__item">
                 <a class="contacts__link" href="mailto:info@devstudio.com">
                     <svg class="contacts__icon" width="16" height="12">
@@ -55,16 +54,16 @@
 
         <!-- Герой секция -->
         <section class="hero">
-            <div class="container">
+            <div class="hero__container">
                 <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
                 <button class="button" type="button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
 
         <!-- умение компании. <h2>Company skill</h2> должно быть   -->
-        <section class="section">
-           <div class="container">
-                <ul class=" skills list">
+        <section class="skills">
+           <div class="skills__wrapper">
+                <ul class=" skills__list">
                     <li class="skills__items">
                         <div class="skills__icons">
                             <svg width="70" height="70">
@@ -106,10 +105,10 @@
         </section>
 
         <!-- деятельность компании -->
-        <section class="images section">
-            <div class="container">
+        <section class="images">
+            <div class="images__wrapper">
                 <h2 class="images__title">Чем мы занимаемся</h2>
-                <ul class="images__list list">
+                <ul class="images__list">
                     <li class="images__items">
                         <img class="images__img" src="./images/programmig.jpg" alt="Программирование на компьютере" width="370" height="294">
                         <p class="images__text">Десктопные приложения</p>
@@ -127,16 +126,16 @@
         </section>
 
         <!-- Сотрудники компании -->
-        <section class="team section">
-           <div class="container">
+        <section class="team">
+           <div class="team__wrapper">
                 <h2 class="team__title">Наша команда</h2>
-                <ul class="team__list list">
+                <ul class="team__list">
                     <li class="team__items">
                         <img class="team__img" src="./images/Product-Designer.jpg" alt="Игорь Демьяненко" width="270" height="260">
                        <div class="team__content">
                             <h3 class="team__subtitle">Игорь Демьяненко</h3>
                             <p class="team__text" lang="en">Product Designer</p>
-                            <ul class="socials-icons list">
+                            <ul class="socials-icons">
                                 <li class="socials-icons__list">
                                     <a class="socials-icons__link" href="">
                                         <svg class="socials-icons__icon" width="20" height="20">
@@ -284,10 +283,10 @@
         </section>
 
         <!-- постоянные клиенты -->
-        <section class="client section">
-            <div class="container">
+        <section class="client">
+            <div class="client__wrapper">
                 <h2 class="client__title">Постоянные клиенты</h2>
-                <ul class="client__items list">
+                <ul class="client__items">
                     <li class="client__list">
                         <a class="client__link" href="">
                             <svg class="client__icon" width="106" height="60">
@@ -370,7 +369,7 @@
                         <input class="checkbox__field" type="checkbox" name="agreement" value="Agreement conditions"> <span class="checkbox__icon"></span>
                         Соглашаюсь с рассылкой и принимаю &nbsp;<a href="">Условия договора</a>
                     </Label>
-                    <button class="button button__form" type="submit">Отправить</button>
+                    <button class="button__form" type="submit">Отправить</button>
             </form>
             </div>
         </div>
