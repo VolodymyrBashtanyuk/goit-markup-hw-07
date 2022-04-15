@@ -1,7 +1,7 @@
 @import "./utils/variables";
-@import "./utils/normalize";
-@import "./components/body";
+@import "./base/normalize";
 @import "./utils/placeholders";
+@import "./base/body";
 @import "./components/header";
 @import "./components/hero";
 @import "./components/modalWindow";
